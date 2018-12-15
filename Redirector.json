@@ -1,7 +1,23 @@
 {
     "createdBy": "Redirector v3.2.1",
-    "createdAt": "2018-12-13T18:45:35.972Z",
+    "createdAt": "2018-12-15T22:10:01.190Z",
     "redirects": [
+        {
+            "description": "imgur embed",
+            "exampleUrl": "https://imgur.com/a/FgJlx/embed?referrer=https%3A%2F%2Fcdn.embedly.com%2F",
+            "exampleResult": "https://imgur.com/a/FgJlx",
+            "error": null,
+            "includePattern": "https://imgur.com/a/*/embed*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://imgur.com/a/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
         {
             "description": "YT Embds 1",
             "exampleUrl": "https://www.youtube.com/embed/11YhTuyOmnk?rel=0",
