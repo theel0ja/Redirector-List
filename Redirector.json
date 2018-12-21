@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.2.1",
-    "createdAt": "2018-12-15T22:10:01.190Z",
+    "createdAt": "2018-12-21T11:50:17.923Z",
     "redirects": [
         {
             "description": "imgur embed",
@@ -11,6 +11,22 @@
             "excludePattern": "",
             "patternDesc": "",
             "redirectUrl": "https://imgur.com/a/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "YT Embeds 2",
+            "exampleUrl": "https://www.youtube-nocookie.com/embed/11YhTuyOmnk?rel=0",
+            "exampleResult": "https://www.youtube.com/watch?v=11YhTuyOmnk?rel=0",
+            "error": null,
+            "includePattern": "*://www.youtube-nocookie.com/embed/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.youtube.com/watch?v=$2",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
