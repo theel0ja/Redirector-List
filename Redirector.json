@@ -1,7 +1,39 @@
 {
     "createdBy": "Redirector v3.2.1",
-    "createdAt": "2019-01-02T14:47:44.800Z",
+    "createdAt": "2019-01-02T16:37:35.000Z",
     "redirects": [
+        {
+            "description": "Invidio.us - Watch",
+            "exampleUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "exampleResult": "https://invidio.us/watch?v=dQw4w9WgXcQ",
+            "error": null,
+            "includePattern": "https://www.youtube.com/watch?v=*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://invidio.us/watch?v=$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Invidio.us - Search",
+            "exampleUrl": "https://www.youtube.com/results?search_query=rick+roll",
+            "exampleResult": "https://invidio.us/search?q=rick+roll",
+            "error": null,
+            "includePattern": "https://www.youtube.com/results?search_query=*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://invidio.us/search?q=$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
         {
             "description": "IPLookup",
             "exampleUrl": "https://iplookup.flagfox.net/?ip=1.1.1.1&host=one.one.one.one",
