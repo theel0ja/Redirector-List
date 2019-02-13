@@ -1,16 +1,32 @@
 {
     "createdBy": "Redirector v3.2.1",
-    "createdAt": "2019-01-02T16:37:35.000Z",
+    "createdAt": "2019-02-13T16:21:25.800Z",
     "redirects": [
+        {
+            "description": "Imgur gifv",
+            "exampleUrl": "https://i.imgur.com/bVwYmYa.gifv",
+            "exampleResult": "https://i.imgur.com/bVwYmYa.mp4",
+            "error": null,
+            "includePattern": "https://i.imgur.com/*.gifv",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://i.imgur.com/$1.mp4",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
         {
             "description": "Invidio.us - Watch",
             "exampleUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "exampleResult": "https://invidio.us/watch?v=dQw4w9WgXcQ",
             "error": null,
-            "includePattern": "https://www.youtube.com/watch?v=*",
+            "includePattern": "https://www.youtube.com/watch?*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://invidio.us/watch?v=$1",
+            "redirectUrl": "https://invidio.us/watch?$1",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
